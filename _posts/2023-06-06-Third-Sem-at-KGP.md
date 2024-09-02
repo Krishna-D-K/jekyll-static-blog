@@ -4,7 +4,7 @@ author: Krishna
 categories: [TOP_CATEGORIE, SUB_CATEGORIE]
 description: Nothing but a whining post about how was my first offline sem at campus.
 comments: true
-pin: true
+pin: false
 image: /assets/cover/third-sem-at-kgp.jpg
 tags: ['# kgp', '# thirdSem']     # TAG names should always be lowercase
 ---

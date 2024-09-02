@@ -4,7 +4,7 @@ author: Krishna
 categories: [TOP_CATEGORIE, SUB_CATEGORIE]
 description: The toughest decisions need the toughest mettle, for no regret in afterlife.
 comments: true
-pin: true
+pin: false
 image: /assets/cover/ability_and_incapability.png
 tags: ['# realization', '# noRegrets']     # TAG names should always be lowercase
 ---

@@ -4,7 +4,7 @@ author: Krishna
 categories: [TOP_CATEGORIE, SUB_CATEGORIE]
 description: But I kept running for a soft place to fall, I kept running for a soft place to fall...
 comments: true
-pin: true
+pin: false
 image: /assets/cover/love_time_death.jpg
 tags: ['# realization', '# sitcoms', '# waysToLive']     # TAG names should always be lowercase
 ---

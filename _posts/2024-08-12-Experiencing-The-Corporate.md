@@ -4,7 +4,7 @@ author: Krishna
 categories: [TOP_CATEGORIE, SUB_CATEGORIE]
 description: Summer internship must be special, right?
 comments: true
-pin: false
+pin: true
 image: /assets/cover/experiencing-the-corporate.jpg
 tags: ['# realization', '# internship', '# summer23']     # TAG names should always be lowercase
 ---
