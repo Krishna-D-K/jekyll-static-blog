@@ -1,0 +1,46 @@
+---
+---
+
+@import 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+.site-title {
+    text-align: center;
+}
+
+.profile-wrapper {
+    padding: 0 1.25rem !important;
+}
+
+.profile-wrapper p {
+    text-align: center;
+}
+
+#avatar {
+    margin: 0 auto;
+}
+
+#sidebar .site-title a {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+    color: #c9c9c9;
+}
+
+// a {
+//     color:  rgb(224, 83, 2);
+// }
+
+// .btn:hover {
+//     background-color: rgb(224, 83, 2);;
+// }
+
+.preview-img img {
+    filter: grayscale(20%);
+}
