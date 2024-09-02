@@ -1,1 +1,103 @@
+# Markdown Syntax Guide
 
+<!-- This file contains basic Markdown syntax for reference. -->
+
+## 1. Headers
+<!-- Use `#` for headers. The number of `#` symbols indicates the level. -->
+
+# H1 Header
+## H2 Header
+### H3 Header
+#### H4 Header
+
+## 2. Emphasis
+<!-- Use `**` for bold and `*` or `_` for italics. -->
+
+**This text is bold**  
+*This text is italic*  
+_This text is also italic_
+
+## 3. Lists
+### Unordered Lists
+<!-- Use `-`, `+`, or `*` to create unordered lists. -->
+
+- Item 1
+- Item 2
+  - Subitem 2a
+  - Subitem 2b
+
+### Ordered Lists
+<!-- Use numbers followed by a period for ordered lists. -->
+
+1. First item
+2. Second item
+3. Third item
+
+## 4. Links
+<!-- Create hyperlinks using `[link text](URL)`. -->
+
+[OpenAI](https://www.openai.com)
+
+## 5. Images
+<!-- Embed images using `![alt text](image URL)`. -->
+
+![Markdown logo](https://example.com/logo.png)
+
+## 6. Blockquotes
+<!-- Create blockquotes using `>`. -->
+
+> This is a blockquote.
+
+## 7. Code
+### Inline Code
+<!-- Use backticks ` to mark inline code. -->
+
+Here is some `inline code`.
+
+### Code Blocks
+<!-- Use triple backticks ``` or indentation to create code blocks. -->
+
+
+## 8. Horizontal Rule
+<!-- Create a horizontal rule using three hyphens `---` or asterisks `***`. -->
+
+---
+
+## 9. Tables
+<!-- Create tables using pipes `|` and hyphens `-` for columns and rows. -->
+
+| Header 1 | Header 2 |
+|----------|----------|
+| Row 1    | Data 1   |
+| Row 2    | Data 2   |
+
+## 10. Task Lists
+<!-- Use `- [ ]` for unchecked tasks and `- [x]` for checked tasks. -->
+
+- [ ] Task 1
+- [x] Task 2 (completed)
+
+## 11. Footnotes
+<!-- Use `[^1]` to create a footnote reference and define it later in the document. -->
+
+Here is a footnote reference[^1].
+
+[^1]: This is the footnote text.
+
+## 12. Newlines
+<!-- To create a newline, end a line with two spaces or insert a `<br>` tag. -->
+
+This is the first line.  
+This is the second line.
+
+<!-- Alternatively: -->
+
+This is the first line.<br>This is the second line.
+
+## 13. Special Characters
+<!-- Escape special characters by preceding them with a backslash `\`. -->
+
+\*This text is not italicized*  
+\# This text is not a header  
+\> This is not a blockquote  
+\[Link Text](#) is displayed as plain text

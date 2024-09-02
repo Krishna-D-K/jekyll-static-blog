@@ -19,10 +19,22 @@
 #   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
 #   url:  ''                  # Fill with your Mastodon account page, rel="me" will be applied for verification
 #
-# - type: linkedin
-#   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
-#   url:  ''                  # Fill with your Linkedin homepage
-#
+- type: linkedin
+  icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
+  url:  'https://www.linkedin.com/in/krishna-d-k'   
+
+- type: instagram
+  icon: 'fab fa-instagram'   # icons powered by <https://fontawesome.com/>
+  url:  'https://www.instagram.com/krishna_d_k/'
+
+- type: facebook
+  icon: 'fab fa-facebook'   # icons powered by <https://fontawesome.com/>
+  url:  'https://www.facebook.com/profile.php?id=100074550491680'
+
+- type: hashnode
+  icon: 'fab fa-hashnode'   # icons powered by <https://fontawesome.com/>
+  url:  'https://krishnadk.hashnode.dev/'
+#     
 # - type: stack-overflow
 #   icon: 'fab fa-stack-overflow'
 #   url:  ''                  # Fill with your stackoverflow homepage
