@@ -1,10 +1,10 @@
 ---
 title: Visit to Kolkata
 author: Krishna
-categories: [TOP_CATEGORIE, SUB_CATEGORIE]
+categories: [LIFE_LATELY, TRAVEL]
 description: The day I landed in West Bengal, to exploring it actually.
 comments: true
-pin: true
+pin: false
 image: /assets/cover/visit-to-kolkata.jpg
 tags: ['# travelling', '# kolkata']     # TAG names should always be lowercase
 ---

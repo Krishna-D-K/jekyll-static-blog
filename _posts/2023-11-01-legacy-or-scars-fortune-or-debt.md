@@ -1,7 +1,7 @@
 ---
 title: Legacy or Scars? Fortune or Debt?
 author: Krishna
-categories: [TOP_CATEGORIE, SUB_CATEGORIE]
+categories: [LATE_NIGHT, QUESTIONS]
 description: But I kept running for a soft place to fall, I kept running for a soft place to fall...
 comments: true
 pin: false

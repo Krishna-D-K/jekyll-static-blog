@@ -1,7 +1,7 @@
 ---
 title: Fifth Sem at KGP 
 author: Krishna
-categories: [TOP_CATEGORIE, SUB_CATEGORIE]
+categories: [LIFE_LATELY, KGP]
 description: Nothing but a whining post about how my fifth sem was at campus.
 comments: true
 pin: true

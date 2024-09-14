@@ -1,7 +1,7 @@
 ---
 title: Race for Summer Internships
 author: Krishna
-categories: [TOP_CATEGORIE, SUB_CATEGORIE]
+categories: [LIFE_LATELY, INTERNSHIP]
 description: Nothing but a whining post about my preparation for the summer internships.
 comments: true
 pin: true

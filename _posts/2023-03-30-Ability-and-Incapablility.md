@@ -1,7 +1,7 @@
 ---
 title: Ability and Incapability
 author: Krishna
-categories: [TOP_CATEGORIE, SUB_CATEGORIE]
+categories: [LATE_NIGHT, THOUGHTS]
 description: The toughest decisions need the toughest mettle, for no regret in afterlife.
 comments: true
 pin: false

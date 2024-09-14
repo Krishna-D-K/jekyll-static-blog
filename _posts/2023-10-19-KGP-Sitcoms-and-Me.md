@@ -1,7 +1,7 @@
 ---
 title: KGP, Sitcoms and Me
 author: Krishna
-categories: [TOP_CATEGORIE, SUB_CATEGORIE]
+categories: [LIFE_LATELY, SITCOMS]
 description: What aligns between KGP and sitcoms, and why am I stuck in them?
 comments: true
 pin: true

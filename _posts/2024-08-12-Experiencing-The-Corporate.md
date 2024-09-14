@@ -1,7 +1,7 @@
 ---
 title: Experiencing the Corporate
 author: Krishna
-categories: [TOP_CATEGORIE, SUB_CATEGORIE]
+categories: [LIFE_LATELY, INTERNSHIP]
 description: Summer internship must be special, right?
 comments: true
 pin: true

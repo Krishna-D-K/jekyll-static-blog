@@ -1,10 +1,10 @@
 ---
 title: Backtracing the Origins
 author: Krishna
-categories: [TOP_CATEGORIE, SUB_CATEGORIE]
+categories: [THE_BEGINNING, BLOG]
 description: Even we had blogspot and medium, why create a new blog website?
 comments: true
-pin: true
+pin: false
 image: /assets/cover/backtracing-the-origins.jpg
 tags: ['# beginning']     # TAG names should always be lowercase
 ---
