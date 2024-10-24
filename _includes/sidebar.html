@@ -27,6 +27,13 @@
           <span>{{ site.data.locales[include.lang].tabs.home | upcase }}</span>
         </a>
       </li>
+      <!-- Posts -->
+      <li class="nav-item{% if page.url contains 'posts' %}{{ " active" }}{% endif %}">
+        <a href="{{ '/posts/' }}" class="nav-link">
+          <i class="fa-solid fa-book-bookmark"></i>
+          <span>&nbsp; POSTS</span>
+        </a>
+      </li>
       <!-- the real tabs -->
       {% for tab in site.tabs %}
         <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}">

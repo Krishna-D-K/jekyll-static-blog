@@ -1,17 +1,20 @@
 ---
 layout: default
-refactor: true
+title: Posts
+permalink: /posts/
+pagination:
+  enabled: true
 ---
+
 {% include lang.html %}
 
-{% assign pinned_posts = site.posts | where: 'pin', 'true' %}
-
-<h3>Featured Posts</h3>
+<h3 style="display: inline-block;">All Posts &nbsp;</h3>({{paginator.page}}/{{paginator.total_pages}})
 <hr>
+
 <div id="post-list" class="flex-grow-1 px-xl-1">
-  {% for post in pinned_posts %}
+  {% for post in paginator.posts %}
   <article class="card-wrapper card">
-    <a href="{{ post.url | relative_url }}" class="post-preview row g-0 flex-md-row-reverse">
+    <a href="{{ post.url | relative_url }}" class="post-preview g-0 row flex-md-row-reverse">
       {% assign card_body_col = '12' %}
 
       {% if post.image %}
@@ -29,7 +32,9 @@ refactor: true
       {% endif %}
 
       <div class="col-md-5">
-        <img src="{{ src }}" alt="{{ alt }}" {{ lqip }}>
+        <div class="preview-img">
+          <img src="{{ src }}" alt="{{ alt }}" {{ lqip }}></img>
+        </div>
       </div>
 
       {% assign card_body_col = '7' %}
@@ -60,11 +65,6 @@ refactor: true
               </span>
               {% endif %}
             </div>
-
-            <div class="pin ms-1">
-              <i class="fa-solid fa-heart fa-lg" style="color: #ff3838;"></i>
-              <span>{{ site.data.locales[lang].post.pin_prompt }}</span>
-            </div>
             
           </div>
           <!-- .post-meta -->
@@ -76,3 +76,6 @@ refactor: true
   {% endfor %}
 </div>
 <!-- #post-list -->
+
+{% include post-paginator.html %}
+ 
