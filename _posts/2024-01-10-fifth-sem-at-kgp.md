@@ -1,12 +1,12 @@
 ---
-title: Fifth Sem at KGP 
+title: Fifth Sem at KGP
 author: Krishna
-categories: [LIFE_LATELY, KGP]
+categories: [Life]
 description: Nothing but a whining post about how my fifth sem was at campus.
 comments: true
 pin: true
 image: /assets/cover/fifth-sem-at-kgp.jpg
-tags: ['# kgp', '# fifthSem']     # TAG names should always be lowercase
+tags: ['kgp', 'fifthSem']     # TAG names should always be lowercase
 ---
 
 ---
@@ -30,5 +30,5 @@ With the daunting end-semesters approaching, the campus was confused about wheth
 Hmm, I never write this summary of the semester when I'm at home. Just wasting other precious hours of my semester on such stuff, rather than doing something productive. I hope I enjoy these pieces when I read them afterwards.
 
 
-Singing Off,  
+Singing Off,
 Hasta Luego!!

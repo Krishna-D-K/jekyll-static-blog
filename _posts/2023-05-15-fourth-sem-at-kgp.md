@@ -1,12 +1,12 @@
 ---
 title: Fourth Sem at KGP
 author: Krishna
-categories: [LIFE_LATELY, KGP]
+categories: [Life]
 description: Nothing but a whining post about how was my fourth sem at campus.
 comments: true
 pin: false
 image: /assets/cover/fourth-sem-at-kgp.jpg
-tags: ['# kgp', '# fourthSem']     # TAG names should always be lowercase
+tags: ['kgp', 'fourthSem']     # TAG names should always be lowercase
 ---
 
 ---
@@ -27,10 +27,10 @@ And oh, I almost forgot that I was also a part of the Nukkad team of the Patel H
 ![Street Play Team](../assets/blogs/nukkad-team.jpeg)
 _The Street Play Team_
 
-We had even played a few friendly matches of volleyball, just in case, if we were allowed to play, to be prepared for it. Nevertheless, it was still fun. Then as we moved nearer to the endsems, a huge event was about to happen, and yes, even if you want, you can't escape through it. The Gymkhana elections indeed. Even though I kept myself at bay from the publicity and booze parties (hall days), still I had to keep myself updated about the proposals of the candidates, at least. iykyk. 
+We had even played a few friendly matches of volleyball, just in case, if we were allowed to play, to be prepared for it. Nevertheless, it was still fun. Then as we moved nearer to the endsems, a huge event was about to happen, and yes, even if you want, you can't escape through it. The Gymkhana elections indeed. Even though I kept myself at bay from the publicity and booze parties (hall days), still I had to keep myself updated about the proposals of the candidates, at least. iykyk.
 And as my hall had two candidates, and both of them won, the happiness of the hall knew no sky. The hall was literally flying high, high and higher. As I stumbled out of it, the parties for our interhall and GC teams were announced. We, who somehow managed to escape out of the election parties, had this great moment waiting for us, and I enjoyed it a lot, actually.
 
 But then I had my endsems so close that I could not even hope that I would somehow manage to get through it. But I went. And I don't know how did I perform, but the time was gone, cause I had CDC in the next two months, and I had not prepared for it, so these two months while I am at my home, I should not rather spend my time writing this blog, but study for it. Or either sleep? Anyways, it's 1AM. I guess it's time to publish the blog now. See yaa.
 
-Signing off,  
+Signing off,
 Hasta Luego!!

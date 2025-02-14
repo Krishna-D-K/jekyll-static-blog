@@ -1,12 +1,12 @@
 ---
 title: Third Sem at KGP
 author: Krishna
-categories: [LIFE_LATELY, KGP]
+categories: [Life]
 description: Nothing but a whining post about how was my first offline sem at campus.
 comments: true
 pin: false
 image: /assets/cover/third-sem-at-kgp.jpg
-tags: ['# kgp', '# thirdSem']     # TAG names should always be lowercase
+tags: ['kgp', 'thirdSem']     # TAG names should always be lowercase
 ---
 
 ---
@@ -32,6 +32,6 @@ _Illu Nights_
 
 Thought this picture during those days would cheer up my mood today. Atleast I had some good memory of it to look back at.😇
 
-Signing off,  
+Signing off,
 
 Hasta Luego!!

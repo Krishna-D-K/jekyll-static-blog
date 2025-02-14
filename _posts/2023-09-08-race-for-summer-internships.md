@@ -1,12 +1,12 @@
 ---
 title: Race for Summer Internships
 author: Krishna
-categories: [LIFE_LATELY, INTERNSHIP]
+categories: [Life]
 description: Nothing but a whining post about my preparation for the summer internships.
 comments: true
 pin: true
 image: /assets/cover/race-for-internships.jpg
-tags: ['# kgp', '# fifthSem', '# summer23']     # TAG names should always be lowercase
+tags: ['kgp', 'fifthSem', 'summer23', 'internship']     # TAG names should always be lowercase
 ---
 
 ---
@@ -27,7 +27,7 @@ My first shortlist was on Day 3, for Cohesity, a company known only to hire CSE 
 
 My second shortlist was on Day 4, for SLB. None of us knew what was the hiring trend for it. Anyways, 40 students were shortlisted for the interviews. Round 1 Group Discussion. Cleared it in the first slot itself. Next Technical Round 1. Cleared it. Next Technical Round 2. I was the first to be called for the round. Cleared it very well. I knew that I had done really well and would be the first to be called for the HR Round. Called for the HR round. I don't know why but it lasted for 40 mins. Usually, it doesn't go that way. I knew either I fucked up or there was something wrong. When I told my friends I had reached the HR round, everyone thought I made it. But then the final shortlist came, it had only 2 students selected, out of 40. A total of 6 students were selected for the HR Round, but only 2 were able to clear it. Second HUGE rejection.
 
-My next shortlists were for Day 6 companies, Bidgley and Visa. I knew that this was the last chance I'd ever get to secure an internship. So, I went for the interviews. The first was for Bidgley. The round was really tough and I thought I would not clear it. Before the results were announced, I went to interview for Visa. The round went good. But when I reached to know if I was selected for round 2 for Bidgley, I wasn't. Third Rejection. I thought it was all wrapped. I reached the hall and was not hoping for anything from Visa. But suddenly, I got a message that I was selected! Visa had a total of 8 shortlisted for interviews and selected 3 students. 
+My next shortlists were for Day 6 companies, Bidgley and Visa. I knew that this was the last chance I'd ever get to secure an internship. So, I went for the interviews. The first was for Bidgley. The round was really tough and I thought I would not clear it. Before the results were announced, I went to interview for Visa. The round went good. But when I reached to know if I was selected for round 2 for Bidgley, I wasn't. Third Rejection. I thought it was all wrapped. I reached the hall and was not hoping for anything from Visa. But suddenly, I got a message that I was selected! Visa had a total of 8 shortlisted for interviews and selected 3 students.
 
 Maybe having faith in God and myself paid off. Or maybe luck favoured me that day. The only thing that I gained to know was that, behind very hard work, one needs a tinge of luck to be successful. Thankful to God, my family, my friends and all the well-wishers who helped me reach here today ✨✨.
 Hope for the best, expect the worst, and take what it comes.

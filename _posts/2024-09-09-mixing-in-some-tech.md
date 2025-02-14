@@ -1,12 +1,12 @@
 ---
 title: Mixing in some Tech
 author: Krishna
-categories: [THE_BEGINNING, TECH_BLOG]
+categories: [Tech]
 description: Not a big deal, but just something to write about.
 comments: true
 pin: true
 image: /assets/cover/star-wars.jpg
-tags: ['# beginning', '# tech']     # TAG names should always be lowercase
+tags: ['beginning', 'tech']     # TAG names should always be lowercase
 ---
 
 Just when I was about to get started to write , I realized that most often I write in the same date pattern. Hmm...
@@ -29,17 +29,17 @@ Ready-made, responsive themes are available as templates to use. Modify it a lit
 
 ### Building it actually
 
-Assuming you have [Ruby](https://ruby-lang.org) and [Git](https://git-scm.org) installed in your system and a GitHub account, let's make a copy of [this](https://github.com/cotes2020/chirpy-starter) Chirpy theme template  from GitHub. Just visit this site and select **Use this template** option.  
+Assuming you have [Ruby](https://ruby-lang.org) and [Git](https://git-scm.org) installed in your system and a GitHub account, let's make a copy of [this](https://github.com/cotes2020/chirpy-starter) Chirpy theme template  from GitHub. Just visit this site and select **Use this template** option.
 
 ![GitHub Option](../assets/blogs/GitHub.png)
-_choose the option Use This template_  
+_choose the option Use This template_
 
 
-Create a new repository and the entire content will be copied to the repository for your use!  
+Create a new repository and the entire content will be copied to the repository for your use!
 
 
 ![New Repository](../assets/blogs/new-repo.png)
-_create a new repository_  
+_create a new repository_
 
 ### Setting the local development server
 
@@ -63,7 +63,7 @@ And if everything proceeds correctly (fingers crossed 🤞🤞), you may see the
 
 Move to your browser and go over localhost:4000 to see the site running.
 
-> ###### Note: If you accidently encounter any dependency issues (I did), it mostly would be because of wrong ruby version used. Instead use [rvm](https://rvm.io/rvm/install) and use the specific version using `rvm install <VERSION_NUMBER>`  
+> ###### Note: If you accidently encounter any dependency issues (I did), it mostly would be because of wrong ruby version used. Instead use [rvm](https://rvm.io/rvm/install) and use the specific version using `rvm install <VERSION_NUMBER>`
 
 ### Writing a new blog post
 
@@ -88,9 +88,9 @@ tags: ['tag1', 'tag2', 'tag3']     # TAG names should always be lowercase
 # Hello World!
 
 This is my first blog post!
-```  
+```
 
-Save the file and voila! A new blog post would automatically be created for you! 
+Save the file and voila! A new blog post would automatically be created for you!
 
 ---
 If you have **actually** READ it, and **trying** to really make one, and stuck at someplace, I'm glad to help :)

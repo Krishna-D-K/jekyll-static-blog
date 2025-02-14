@@ -1,12 +1,12 @@
 ---
 title: Visit to Kolkata
 author: Krishna
-categories: [LIFE_LATELY, TRAVEL]
+categories: [Life, Travel]
 description: The day I landed in West Bengal, to exploring it actually.
 comments: true
 pin: false
 image: /assets/cover/visit-to-kolkata.jpg
-tags: ['# travelling', '# kolkata']     # TAG names should always be lowercase
+tags: ['travelling', 'kolkata']     # TAG names should always be lowercase
 ---
 
 ---
@@ -21,7 +21,7 @@ Then comes the best part. As we returned to the room back, we bought some huge c
 
 ##### Day 2
 
-We woke around 11 that day. Had breakfast (not brunch), skipped lunch, and again had a long discussion about where to visit. We (unanimously) decided to skip some park or similar kind of place and visit what was mandatory to be visited, Victoria Memorial. For some reason, we decided to view the parks and not the museum there. So we wandered around for about 2hrs or so, doing nothing but taking endless pictures of the white monument and mocking ourselves for some dorky things we did. 
+We woke around 11 that day. Had breakfast (not brunch), skipped lunch, and again had a long discussion about where to visit. We (unanimously) decided to skip some park or similar kind of place and visit what was mandatory to be visited, Victoria Memorial. For some reason, we decided to view the parks and not the museum there. So we wandered around for about 2hrs or so, doing nothing but taking endless pictures of the white monument and mocking ourselves for some dorky things we did.
 published
 
 ![Colonialism at its prime](../assets/blogs/victoria-palace.jpg)
@@ -32,7 +32,7 @@ We then went to see a famous cathedral very close to the memorial. Honestly, I'v
 ##### Day 3
 
 Packed our bags and back to campus🤓.
-Though we didn't visit a lot of places and neither did we "explore" the local culture of Kolkata, it made me filter my group of friends into a smaller circle. Not to forget the Barista cafe at Park Street which we never miss visiting while we are at Kolkata. 
+Though we didn't visit a lot of places and neither did we "explore" the local culture of Kolkata, it made me filter my group of friends into a smaller circle. Not to forget the Barista cafe at Park Street which we never miss visiting while we are at Kolkata.
 Never let a good coffee go to waste
 
 Signing off,

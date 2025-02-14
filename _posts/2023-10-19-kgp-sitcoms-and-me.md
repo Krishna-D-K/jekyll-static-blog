@@ -1,12 +1,12 @@
 ---
 title: KGP, Sitcoms and Me
 author: Krishna
-categories: [LIFE_LATELY, SITCOMS]
+categories: [Life]
 description: What aligns between KGP and sitcoms, and why am I stuck in them?
 comments: true
 pin: true
 image: /assets/cover/kpg-sitcoms-and-me.jpg
-tags: ['# kgp', '# sitcoms']     # TAG names should always be lowercase
+tags: ['kgp', 'sitcoms']     # TAG names should always be lowercase
 ---
 
 ---
@@ -17,7 +17,7 @@ The soothing apartment of Monica's in Friends in the urban area of Manhattan, wi
 
 Then later I thought 'Ab Friends dekh hi li hai, why not watch The Big Bang Theory'. In this way, I watched The Big Bang Theory, just a bunch of nerds and their nerdy stuff all around. Seemingly finding their way in the much-rough world for them, it humours around their quite timid nature and the desperate urge to find a girl for themselves. Anyway, the show had some references to the Star Wars and Star Trek movies, which I watched, too, but later. Even if I didn't like the show much (relatively) it got me some really good movies which I think I might never have explored.
 
-Now I had to make a choice between Brooklyn Nine-Nine and The Office (shifting from 1990s to 2000s to 2010s). Gladly I chose The Office, and I must say, this show is the funniest among all of them. The kind of not-so-appropriate humour in the show along with Michael Scott's weird acts make it a huge hit for me. Throw me some food and a laptop and I will surely watch Office again. Though many of them say that the quality had dropped after S7 (couldn't agree more), they somehow managed to give it a pretty good end. For many of the non-viewers of a sitcom, it's not the duration of the show, but the end of it that makes it a hit or a flop sitcom. 
+Now I had to make a choice between Brooklyn Nine-Nine and The Office (shifting from 1990s to 2000s to 2010s). Gladly I chose The Office, and I must say, this show is the funniest among all of them. The kind of not-so-appropriate humour in the show along with Michael Scott's weird acts make it a huge hit for me. Throw me some food and a laptop and I will surely watch Office again. Though many of them say that the quality had dropped after S7 (couldn't agree more), they somehow managed to give it a pretty good end. For many of the non-viewers of a sitcom, it's not the duration of the show, but the end of it that makes it a hit or a flop sitcom.
 
 Why do I watch them again if I've watched them again? I don't know. Maybe it's the momentary relief of experiencing their way of life, or maybe I'm just trying to escape the reality of KGP by reminiscing the moments around me while I was watching them for the first time. Some even say that we experience comfort in watching things that we lack in real life. But I don't think that is a reason. Whatever it is, I wish I could watch sitcoms less, but...
 published
@@ -32,5 +32,5 @@ published
 
 ![Friends](../assets/blogs/friends_708x.png)
 _The One Where Ross and Rachel... You know..._
-Signing off,  
+Signing off,
 Hasta Luego!!
