@@ -7,11 +7,11 @@
     >
     <nav id="breadcrumb" aria-label="Breadcrumb">
         {% assign paths = page.url | split: '/' %}
-      
+
         {% if paths.size == 0 or page.layout == 'home' %}
           <!-- index page -->
           <span>{{ site.data.locales[include.lang].tabs.home | capitalize }}</span>
-      
+
         {% else %}
           {% for item in paths %}
             {% if forloop.first %}
@@ -20,12 +20,12 @@
                   {{- site.data.locales[include.lang].tabs.home | capitalize -}}
                 </a>
               </span>
-      
+
             {% elsif forloop.last %}
               {% if page.collection == 'posts' %}
                 <!-- If the page is a blog post, show 'Blogs / Post Title' -->
                 <span>
-                  <a href="{{ '/posts/' | relative_url }}">Posts</a>&nbsp; ›&nbsp; 
+                  <a href="{{ '/posts/' | relative_url }}">Posts</a>&nbsp; ›&nbsp;
                   {{ page.title }}
                 </span>
               {% elsif page.collection == 'tabs' %}
@@ -33,7 +33,7 @@
               {% else %}
                 <span>{{ page.title }}</span>
               {% endif %}
-      
+
             {% elsif page.layout == 'category' or page.layout == 'tag' %}
               <span>
                 <a href="{{ item | append: '/' | relative_url }}">
@@ -45,13 +45,13 @@
         {% endif %}
       </nav>
       <!-- endof #breadcrumb -->
-  
+
       <button type="button" id="sidebar-trigger" class="btn btn-link">
         <i class="fas fa-bars fa-fw"></i>
       </button>
-  
+
       <div id="topbar-title">
-        {% if page.layout == 'home' %}
+        {% if page.layout == 'home' or page.layout == 'default'%}
           {{- site.data.locales[include.lang].title | default: site.title -}}
         {% elsif page.collection == 'tabs' or page.layout == 'page' %}
           {%- capture tab_key -%}{{ page.url | split: '/' }}{%- endcapture -%}
@@ -60,11 +60,11 @@
           {{- site.data.locales[include.lang].layout[page.layout] | default: page.layout | capitalize -}}
         {% endif %}
       </div>
-  
+
       <button type="button" id="search-trigger" class="btn btn-link">
         <i class="fas fa-search fa-fw"></i>
       </button>
-  
+
       <search id="search" class="align-items-center ms-3 ms-lg-0">
         <i class="fas fa-search fa-fw"></i>
         <input
