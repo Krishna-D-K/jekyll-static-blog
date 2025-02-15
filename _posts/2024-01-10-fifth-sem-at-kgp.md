@@ -17,9 +17,9 @@ So actually the pre-prep for this semester began earlier in the summer holidays 
 
 Later I finally (after one unsuccessful attempt) planned a trip out with my friends to Puri, for an extended weekend around the end of September. But it never goes as planned. Thanks to our empty stomachs and the other hungry fellows, I and my friend missed our train to Puri at an intermediate station (nobody would've heard of it, and neither did we) Jaleswar. Scenes of flashback still haunt us sometimes, though we pass it off as some joke. But only we knew how we spent the night at the station desperately waiting for the next train. The slow-paced local train was in contrast to the high-speed air-conditioned train that we missed. We even thought of the movie Jab We Met, to get a taxi to the next station and catch the train. But thanks to the remote station we were left at, all we could see was stray dogs, and cows all over the station. Even Kharagpur felt better than it. We spent some 3 hours over the bench and at 4 AM, we began our tedious 7-hour train journey. Thanks to the delicious US Pizza (again, never heard of it) and the complementary brownie, it made the tedious train journey look miniscule.
 
-![Jaleswar Railway Station at 3:23AM](../assets/blogs/jaleswar.jpg)
-_Jaleswar Railway Station at 3:23AM_
-
+<!-- ![Jaleswar Railway Station at 3:23AM](../assets/blogs/jaleswar.jpg)
+_Jaleswar Railway Station at 3:23AM_ -->
+{% include image.html url="../assets/blogs/jaleswar.jpg" caption="Jaleswar Railway Station at 3:23AM" %}
 
 Then upon reaching Bhubaneshwar, we made our signature move. Having around 2-3 hours of sleep at Puri, because we needed to be at Jagannath Temple at 4 AM, we had a heavy meal at lunch and shamelessly slept for 4-5 hours in the afternoon, which seems foolish now but was justified then. Signature because we did the same in Kolkata as well. Then the usual stuff, go to the mall, watch some movie or something, and return to the campus. I usually need to look into my photos to remember the moments, but the trip always seems like yesterday. Most of the moments in the trip still crack us up.
 

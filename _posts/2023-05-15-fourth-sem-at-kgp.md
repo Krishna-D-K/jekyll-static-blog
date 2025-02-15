@@ -18,14 +18,16 @@ I arrived at campus 3 days late, so our dear professor taught the entire course 
 As soon as this was over, all that was going on was this high tempo for the General Championship, which unfortunately our hall was banned from, and so we didn't participate in it. But hey, you got no worries, cause the seniors have got a way to keep y'all busy with the Inter Hall Championship. So the teams went to the ground, unprepared, but yeah fought a lot well in it, to our disappointment, we lost in football and cricket, but yes, I was part of the winning team in volleyball. Not to be proud of, but that felt joyous at that moment. In the meantime, I was dodging my 3 labs, and my other acads quite well, and I actually I liked the machines lab so much, even though I sucked at the theory, it deserves mention in this blog.
 
 
-![Machines Lab](../assets/blogs/machines-lab.jpg)
-_Electrical Machines Lab_
+<!-- ![Machines Lab](../assets/blogs/machines-lab.jpg)
+_Electrical Machines Lab_ -->
+{% include image.html url="../assets/blogs/machines-lab.jpg" caption="Electrical Machines Lab" %}
 
 And oh, I almost forgot that I was also a part of the Nukkad team of the Patel Hall, which we lost again, but yeah, it was kind of fun, going out late at night to the basketball court and practising for it, singing songs for it, and hoping that we had the best team amongst all halls, until we suffered a whopping 30 points penalty, missing our podium. Surprisingly, this was the only big event under SoCult in which we had participated, so I'll at least be able to tell my juniors that I had participated in such an event.😎
 
 
-![Street Play Team](../assets/blogs/nukkad-team.jpeg)
-_The Street Play Team_
+<!-- ![Street Play Team](../assets/blogs/nukkad-team.jpeg)
+_The Street Play Team_ -->
+{% include image.html url="../assets/blogs/nukkad-team.jpeg" caption="The Street Play Team" %}
 
 We had even played a few friendly matches of volleyball, just in case, if we were allowed to play, to be prepared for it. Nevertheless, it was still fun. Then as we moved nearer to the endsems, a huge event was about to happen, and yes, even if you want, you can't escape through it. The Gymkhana elections indeed. Even though I kept myself at bay from the publicity and booze parties (hall days), still I had to keep myself updated about the proposals of the candidates, at least. iykyk.
 And as my hall had two candidates, and both of them won, the happiness of the hall knew no sky. The hall was literally flying high, high and higher. As I stumbled out of it, the parties for our interhall and GC teams were announced. We, who somehow managed to escape out of the election parties, had this great moment waiting for us, and I enjoyed it a lot, actually.

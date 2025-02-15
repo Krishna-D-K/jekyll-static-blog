@@ -24,8 +24,9 @@ I had around 10 weeks of internship to complete, and within those days, I manage
 
 Loneliness hit me the most at Bangalore, not just because I had no friends over there, but also due to the hostel culture I've been experiencing at KGP. However good my PG was, I was well-suited to live in more pathetic conditions than that. The only part I was missing was a good group of people to talk to. Bang into any other room, smash open their door and have a long talk over some random stuff, yet never feel deprived of topics to talk about. I could not obviously tell my parents about how lonely I was feeling, or else they would've called me back home to spend some time with them. Not that I don't enjoy it, but it doesn't make sense to spend a lot of money going back and forth only to return back at the same place. At that time I realized that is what the corporate circle of loneliness feels like. I rather have a good time while I was in the office than spend it alone at the PG. But still, I had some good moments spent there alone, especially at the terrace alone at 3'o clock in night.
 
-![My Workstation](../assets/blogs/my-workspace.jpg)
-_My Workstation :)_
+<!-- ![My Workstation](../assets/blogs/my-workspace.jpg)
+_My Workstation :)_ -->
+{% include image.html url="../assets/blogs/my-workspace.jpg" caption="My Workstation :)" %}
 
 
 Maybe things would change when more of my folks will be at Bangalore for their jobs. For the sole reason, I tried to perform well in the internship to get a full-time offer. Because I need something to do so I don't go to bed on an empty stomach at night.💀!!

@@ -32,8 +32,9 @@ My next shortlists were for Day 6 companies, Bidgley and Visa. I knew that this 
 Maybe having faith in God and myself paid off. Or maybe luck favoured me that day. The only thing that I gained to know was that, behind very hard work, one needs a tinge of luck to be successful. Thankful to God, my family, my friends and all the well-wishers who helped me reach here today ✨✨.
 Hope for the best, expect the worst, and take what it comes.
 
-![Moments before rejection](../assets/blogs/moments-before-rejection.jpg)
-_Moments before rejection_
+<!-- ![Moments before rejection](../assets/blogs/moments-before-rejection.jpg)
+_Moments before rejection_ -->
+{% include image.html url="../assets/blogs/moments-before-rejection.jpg" caption="Moments before rejection" %}
 
 
 

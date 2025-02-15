@@ -13,8 +13,9 @@ tags: ['realization', 'sitcoms', 'waysToLive']     # TAG names should always be 
 
 On the 29th of October, 2023, one of my favourite actors, Matthew Perry passed away. Just 2 days after I had published my blog about my love for sitcoms. I still remember feeling all gloomy that day. My Instagram feed was filled with his funny quick-witted comments, and it made me sadder even more. Leaving behind a mystery of unanswered questions and the unspoken dark reality of the people around us. Baffling me made me think about what we THINK we achieve, and what we are made to leave behind. Call it your legacy, memories, or the pain you inflicted upon others, knowingly or unknowingly, either oceans of fortunes or mountains of debts.
 
-![No Caption Needed](../assets/blogs/no-caption-needed.jpg)
-_No Caption Needed_
+<!-- ![No Caption Needed](../assets/blogs/no-caption-needed.jpg)
+_No Caption Needed_ -->
+{% include image.html url="../assets/blogs/no-caption-needed.jpg" caption="No Caption Needed" %}
 
 Unfortunately, we all are a part of the pain we inflict upon others. It seems vague but the kind of impact we have over someone cannot be known beforehand. Even some minor acts, like denying to participate in something, may cause pain of greater levels. Just like shown in 13 Reasons Why. However hard we try to be good to everyone, we cannot please everyone at the same time. Over some time I thought making into this college made my parents proud, and even though I think I achieved that, sometimes I feel it is not enough.
 

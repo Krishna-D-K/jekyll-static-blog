@@ -20,17 +20,19 @@ Then later I thought 'Ab Friends dekh hi li hai, why not watch The Big Bang Theo
 Now I had to make a choice between Brooklyn Nine-Nine and The Office (shifting from 1990s to 2000s to 2010s). Gladly I chose The Office, and I must say, this show is the funniest among all of them. The kind of not-so-appropriate humour in the show along with Michael Scott's weird acts make it a huge hit for me. Throw me some food and a laptop and I will surely watch Office again. Though many of them say that the quality had dropped after S7 (couldn't agree more), they somehow managed to give it a pretty good end. For many of the non-viewers of a sitcom, it's not the duration of the show, but the end of it that makes it a hit or a flop sitcom.
 
 Why do I watch them again if I've watched them again? I don't know. Maybe it's the momentary relief of experiencing their way of life, or maybe I'm just trying to escape the reality of KGP by reminiscing the moments around me while I was watching them for the first time. Some even say that we experience comfort in watching things that we lack in real life. But I don't think that is a reason. Whatever it is, I wish I could watch sitcoms less, but...
-published
 
-![Detective Michael Scarn](../assets/blogs/detective-michael-scarn.png)
-_Detective Michael Scarn from Threat Level Midnight_
+<!-- ![Detective Michael Scarn](../assets/blogs/detective-michael-scarn.png)
+_Detective Michael Scarn from Threat Level Midnight_ -->
+{% include image.html url="../assets/blogs/detective-michael-scarn.png" caption="Detective Michael Scarn from Threat Level Midnight" %}
 
 
 P.S.: I started watching HIMYM, and till now, it feels good. Though I've heard it doesn't have a good ending, still I'll watch it. It's the newness, the excitement of the first watch of the series that motivates me for it. Should find a comfortable place to watch it, perhaps something like...
 published
 
 
-![Friends](../assets/blogs/friends_708x.png)
-_The One Where Ross and Rachel... You know..._
+<!-- ![Friends](../assets/blogs/friends_708x.png)
+_The One Where Ross and Rachel... You know..._ -->
+{% include image.html url="../assets/blogs/friends_708x.png" caption="The One Where Ross and Rachel... You know..." %}
+
 Signing off,
 Hasta Luego!!

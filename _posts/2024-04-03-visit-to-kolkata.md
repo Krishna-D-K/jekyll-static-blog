@@ -24,8 +24,9 @@ Then comes the best part. As we returned to the room back, we bought some huge c
 We woke around 11 that day. Had breakfast (not brunch), skipped lunch, and again had a long discussion about where to visit. We (unanimously) decided to skip some park or similar kind of place and visit what was mandatory to be visited, Victoria Memorial. For some reason, we decided to view the parks and not the museum there. So we wandered around for about 2hrs or so, doing nothing but taking endless pictures of the white monument and mocking ourselves for some dorky things we did.
 published
 
-![Colonialism at its prime](../assets/blogs/victoria-palace.jpg)
-_Colonialism at its prime_
+<!-- ![Colonialism at its prime](../assets/blogs/victoria-palace.jpg)
+_Colonialism at its prime_ -->
+{% include image.html url="../assets/blogs/victoria-palace.jpg" caption="Colonialism at its prime" %}
 
 We then went to see a famous cathedral very close to the memorial. Honestly, I've seen better ones before. Then we decided to move towards some nice area of Kolkata, and my favourite, Park Street. It has nothing special as such. But when people like us who are fond of expensive cafes with limited money discover such a place, we indulge ourselves. So, we spent almost an hour at the Barista sipping the coffee and planning for the night. Clubbing was way out of the league, so we decided to stick to the basics, grab some snacks along the way, and watch some movies in our room.
 

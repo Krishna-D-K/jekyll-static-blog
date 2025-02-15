@@ -20,15 +20,16 @@ Classes were not as good as I expected them to be. I later realised that despite
 Those 10 days were completely new and probably the most unique days in my third sem. Those were the days when we learnt the actual etiquettes, actual bonding, and the true meaning of what was known to be the hall tempo. I'll not go into this very subjective matter of whether hall tempo is good or bad, but the way the assimilation programme ended, with the dahi handi and a mouthful of rasagullas by our seniors, I don't think it could have ended any better than this.
 published
 
-![End Day Of AP](../assets/blogs/end-of-ap.jpg)
-_Final Day of AP_
-
+<!-- ![End Day Of AP](../assets/blogs/end-of-ap.jpg)
+_Final Day of AP_ -->
+{% include image.html url="../assets/blogs/end-of-ap.jpg" caption="Final Day of AP" %}
 
 Soon after the AP, while our tempo for the hall was still raging in the blood, another major, highly sought after (atleast in our second year) event, the Illumination, or Illu, was aboout to come, and due to AP and stuff, we were left only around with 15 days. While other halls started preparation months earlier, we knew we were lagging behind, but we didn't compete for being the best illu of the year, but rather, as we were told, bonding🙃. Anyways, the day was extremely painful for me atleast, after all those sleepless nights we spent, we were unable to light it on Diwali, and I felt so broken that day...
 published
 
-![Illu Night](../assets/blogs/illu-night.jpg)
-_Illu Nights_
+<!-- ![Illu Night](../assets/blogs/illu-night.jpg)
+_Illu Nights_ -->
+{% include image.html url="../assets/blogs/illu-night.jpg" caption="Illu nights" %}
 
 Thought this picture during those days would cheer up my mood today. Atleast I had some good memory of it to look back at.😇
 
