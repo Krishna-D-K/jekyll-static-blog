@@ -21,7 +21,7 @@ Unfortunately, we all are a part of the pain we inflict upon others. It seems va
 
 I always find them struggling to hold the tears back as I leave after my holidays. They know, I know yet we all prefer not to speak about it. Neither can I help it, nor they could. Once I stumbled upon a verse in the Bhagwad Gita, which said:
 
-> ##### What all beings consider as day is the night of ignorance for the wise, and what all creatures see as night is the day for the introspective sage.
+>  What all beings consider as day is the night of ignorance for the wise, and what all creatures see as night is the day for the introspective sage.
 
 Maybe I am ignorant. Maybe they are. Whoever it is, I know that we all are performing our duties tirelessly. Hoping that we will all find ourselves in a position where we won't regret ourselves holding the tears back. Let us hope for the best, shouldn't we all?
 Things were never meant to be as simple as we imagine them to be. All we can do is either enjoy the moments left in our hands, reminise about those passed. I've read this somewhere:
