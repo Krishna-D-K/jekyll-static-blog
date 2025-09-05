@@ -58,5 +58,13 @@
     <button type="button" class="btn btn-link text-decoration-none" id="search-cancel">
       {{- site.data.locales[include.lang].search.cancel -}}
     </button>
+
+    <!-- Dark/Light Mode Toggle -->
+    {% unless site.theme_mode %}
+      <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle-cls">
+        <i id="topbar-mode-icon" class="fas fa-moon"></i>
+      </button>
+    {% endunless %}
+</div>
   </div>
 </header>
