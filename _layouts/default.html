@@ -27,53 +27,6 @@ layout: compress
             <div class="row flex-grow-1">
                 <main aria-label="Main Content" class="col-12 col-lg-11 col-xl-9 px-md-4">
 
-                    <nav id="breadcrumb" aria-label="Breadcrumb">
-                        {% assign paths = page.url | split: '/' %}
-
-                        {% if paths.size == 0 or page.layout == 'home' %}
-                        <!-- index page -->
-                        <span>{{ site.data.locales[include.lang].tabs.home | capitalize }}</span>
-
-                        {% else %}
-                        {% for item in paths %}
-                        {% if forloop.first %}
-                        <span>
-                            <a href="{{ '/' | relative_url }}">
-                                {{- site.data.locales[include.lang].tabs.home | capitalize -}}
-                            </a>
-                        </span>
-
-                        {% elsif forloop.last %}
-                        {% if page.collection == 'posts' %}
-                        <!-- If the page is a blog post, show 'Blogs / Post Title' -->
-                        <span>
-                            <a href="{{ '/posts/' | relative_url }}">Posts</a>&nbsp; ›&nbsp;
-                            {{ page.title }}
-                        </span>
-                        {% elsif page.collection == 'tabs' %}
-                        <span>{{ site.data.locales[include.lang].tabs[item] | default: page.title }}</span>
-                        {% else %}
-                        <span>{{ page.title }}</span>
-                        {% endif %}
-
-                        {% elsif page.layout == 'category' %}
-                        <span>
-                            <a href="{{ item | append: '/' | relative_url }}">
-                                Categories &nbsp; ›&nbsp;
-                            </a>
-                        </span>
-                        {% elsif page.layout == 'tag' %}
-                        <span>
-                            <a href="{{ item | append: '/' | relative_url }}">
-                                Tags &nbsp; ›&nbsp;
-                            </a>
-                        </span>
-                        {% endif %}
-                        {% endfor %}
-                        {% endif %}
-                    </nav>
-                    <!-- endof #breadcrumb -->
-
                     {% if layout.refactor or layout.layout == 'default' %}
                     {% include refactor-content.html content=content lang=lang %}
                     {% else %}
