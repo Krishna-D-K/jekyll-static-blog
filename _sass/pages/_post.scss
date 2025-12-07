@@ -40,8 +40,27 @@ header {
     }
   }
 
-  h1 + .post-meta {
+  h1 {
+    margin-top: 0 !important;
+  }
+  .post-meta {
     margin-top: 1.5rem;
+  }
+
+  .authors {
+    .avatar {
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+    }
+    span {
+      margin: 0px 10px;
+      font-size: v.$code-font-size * 1.1;
+    }
+    a {
+      margin: 0px 10px;
+      font-size: v.$code-font-size;
+    }
   }
 }
 
@@ -139,12 +158,14 @@ header {
 }
 
 .post-tags {
-  line-height: 2rem;
+
+  a {
+    font-size: 0.9rem;
+  }
 
   .post-tag {
     &:hover {
       @extend %link-hover;
-      @extend %tag-hover;
       @extend %no-bottom-border;
     }
   }

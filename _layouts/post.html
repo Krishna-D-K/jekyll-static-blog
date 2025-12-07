@@ -4,7 +4,6 @@ refactor: true
 panel_includes:
   - toc
 tail_includes:
-  - related-posts
   - post-nav
 script_includes:
   - comment
@@ -16,6 +15,53 @@ script_includes:
 
 <article class="px-1" data-toc="{{ enable_toc }}">
   <header>
+    <!-- published date -->
+    <span style="display: block; text-align: center;">
+      {% include datetime.html date=page.date tooltip=true lang=lang full-date=false %}
+    </span>
+    <h1 data-toc-skip style="text-align: center; font-size: 2.5rem;">{{ page.title }}</h1>
+    <div class="col-md-12 text-center">
+      <!-- read time -->
+      {% include read-time.html content=content prompt=true lang=lang %}
+    </div>
+
+    {% include post-sharing.html lang=lang %}
+
+    <!-- author(s) -->
+    <div class= "authors">
+      {% if page.author %}
+        {% assign authors = page.author %}
+      {% elsif page.authors %}
+        {% assign authors = page.authors %}
+      {% endif %}
+
+        {% if authors %}
+          {% for author in authors %}
+            <div class= "d-flex justify-content-center align-items-center w-100 mb-4">
+              {% if site.data.authors[author].avatar -%}
+                <img
+                  src= {{ site.data.authors[author].avatar }}
+                  alt="Profile avatar"
+                  class= "avatar"
+                />
+              {%- endif %}
+              <div class= "d-flex flex-column" style= "line-height: 1.4">
+              {% if site.data.authors[author].name -%}
+                <span>{{ site.data.authors[author].name }} </span>
+              {%- endif %}
+
+              {% if site.data.authors[author].twitter -%}
+                <a href="{{ site.data.authors[author].twitter }}">{{ site.data.authors[author].twitter_username }}</a>
+              {%- else -%}
+                {{ site.data.authors[author].name }}
+              {%- endif %}
+              {% unless forloop.last %}{{ '</em>, <em>' }}{% endunless %}
+            </div>
+          {% endfor %}
+        {% else %}
+          <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>
+        {% endif %}
+    </div>
     {% if page.image %}
         {% capture src %}src="{{ page.image.path | default: page.image }}"{% endcapture %}
         {% capture class %}class="preview-img{% if page.image.no_bg %}{{ ' no-bg' }}{% endif %}"{% endcapture %}
@@ -31,55 +77,15 @@ script_includes:
             <figcaption class="text-center pt-2 pb-2">{{ page.image.alt }}</figcaption>
           {%- endif -%}
         </div>
-      {% endif %}
+    {% endif %}
 
-    <h1 data-toc-skip>{{ page.title }}</h1>
     {% if page.description %}
       <p class="post-desc fw-light mb-4">{{ page.description }}</p>
     {% endif %}
 
     <div class="post-meta text-muted">
-      <!-- published date -->
-      <span>
-        {{ site.data.locales[lang].post.posted }}
-        {% include datetime.html date=page.date tooltip=true lang=lang %}
-      </span>
-
-      <!-- lastmod date -->
-      {% if page.last_modified_at and page.last_modified_at != page.date %}
-        <span>
-          {{ site.data.locales[lang].post.updated }}
-          {% include datetime.html date=page.last_modified_at tooltip=true lang=lang %}
-        </span>
-      {% endif %}
 
       <div class="d-flex justify-content-between">
-        <!-- author(s) -->
-        <span>
-          {% if page.author %}
-            {% assign authors = page.author %}
-          {% elsif page.authors %}
-            {% assign authors = page.authors %}
-          {% endif %}
-
-          {{ site.data.locales[lang].post.written_by }}
-
-          <em>
-            {% if authors %}
-              {% for author in authors %}
-                {% if site.data.authors[author].url -%}
-                  <a href="{{ site.data.authors[author].url }}">{{ site.data.authors[author].name }}</a>
-                {%- else -%}
-                  {{ site.data.authors[author].name }}
-                {%- endif %}
-                {% unless forloop.last %}{{ '</em>, <em>' }}{% endunless %}
-              {% endfor %}
-            {% else %}
-              <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>
-            {% endif %}
-          </em>
-        </span>
-
         <div>
           <!-- pageviews -->
           {% if site.pageviews.provider and site.analytics[site.pageviews.provider].id %}
@@ -91,8 +97,6 @@ script_includes:
             </span>
           {% endif %}
 
-          <!-- read time -->
-          {% include read-time.html content=content prompt=true lang=lang %}
         </div>
       </div>
     </div>
@@ -171,7 +175,6 @@ script_includes:
         {% endif %}
       </div>
 
-      {% include post-sharing.html lang=lang %}
     </div>
     <!-- .post-tail-bottom -->
   </div>
