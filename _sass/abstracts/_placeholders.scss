@@ -31,8 +31,8 @@
 }
 
 %tag-hover {
-  background: var(--tag-hover);
-  transition: background 0.35s ease-in-out;
+  // background: var(--tag-hover);
+  // transition: background 0.35s ease-in-out;
 }
 
 %table-cell {
@@ -42,8 +42,7 @@
 }
 
 %link-hover {
-  color: #d2603a !important;
-  border-bottom: 1px solid #d2603a;
+  color: #0b9eb8 !important;
   text-decoration: none;
 }
 

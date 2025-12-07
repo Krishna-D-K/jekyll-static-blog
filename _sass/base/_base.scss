@@ -231,11 +231,9 @@ main {
   display: inline-block;
   min-width: 2rem;
   text-align: center;
-  border-radius: 0.5rem;
-  border: 1px solid var(--btn-border-color);
-  padding: 0 0.4rem;
-  color: var(--text-muted-color);
+  color: var(--tag-color);
   line-height: 1.3rem;
+  text-transform: uppercase;
 
   &:not(:last-child) {
     margin-right: 0.2rem;
