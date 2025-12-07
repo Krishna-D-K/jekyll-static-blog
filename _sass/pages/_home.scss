@@ -2,6 +2,43 @@
 @use '../abstracts/breakpoints' as bp;
 @use '../abstracts/placeholders';
 
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100%;
+
+  h1 {
+    font-size: 2.5rem;
+    span {
+      font-size: 100%;
+    }
+  }
+  span {
+    font-size: 1.2rem;
+
+    a {
+      color: black;
+      text-decoration: none;
+      display: inline-block;
+      white-space: nowrap;
+    }
+  }
+}
+
+.typed-cursor {
+  color: #39FF14;
+  font-weight: bolder;
+  animation: blink 1.2s infinite !important;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 #post-list {
   margin-top: 2rem;
 
