@@ -10,6 +10,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
 #sidebar {
   @include mx.pl-pr(0);
 
+  display: none !important;
   position: fixed;
   top: 0;
   left: 0;
@@ -28,9 +29,11 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
     display: none;
   }
 
+
   @include bp.lt(bp.get(lg)) {
     @include mx.slide;
 
+    display: block !important; // Hides it on screens with size less than lg
     transform: translateX(-#{v.$sidebar-width}); /* hide */
     -webkit-transform: translateX(-#{v.$sidebar-width});
 
