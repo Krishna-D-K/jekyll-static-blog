@@ -151,7 +151,9 @@ main {
   line-height: 1.75;
 
   h1 {
+    // font-size: 2.75rem;
     margin-top: 2rem;
+    font-weight: bold;
 
     @include bp.lg {
       margin-top: 3rem;

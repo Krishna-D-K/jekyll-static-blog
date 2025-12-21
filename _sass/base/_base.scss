@@ -6,7 +6,7 @@
 @use '../themes/dark';
 
 :root {
-  font-size: 16px;
+  font-size: 1.05rem;
 }
 
 html {
@@ -414,7 +414,7 @@ mjx-container {
   }
 
   @include bp.lg {
-    margin-left: v.$sidebar-width;
+    // margin-left: v.$sidebar-width;
   }
 
   @include bp.xxxl {
@@ -424,6 +424,13 @@ mjx-container {
   > .container {
     min-height: 100vh;
 
+    // nav {
+    //   margin-top: 1rem;
+    //   @include bp.lt(bp.get(lg)) {
+    //     margin: 0;
+    //     display: none;
+    //   }
+    // }
     @include bp.lte(bp.get(md)) {
       @include mx.max-w-100;
       @include mx.pl-pr(0);
