@@ -10,44 +10,23 @@
     </button>
 
     <div id="topbar-right" class="d-flex align-items-center ms-auto">
-    <!-- Navigation links (desktop only) -->
-    <nav id="topbar-nav" class="d-none d-lg-flex align-items-center">
-      <a class="nav-link px-2" href="{{ '/' | relative_url }}">Home</a>
-      <a class="nav-link px-2" href="{{ '/posts/' | relative_url }}">Posts</a>
-      <!-- Commented out the categories page from the topbar -->
-      <!-- <a class="nav-link px-2" href="{{ '/categories/' | relative_url }}">Categories</a> -->
-      <a class="nav-link px-2" href="{{ '/tags/' | relative_url }}">Tags</a>
-      <a class="nav-link px-2" href="{{ '/archives/' | relative_url }}">Archives</a>
-      <a class="nav-link px-2" href="{{ '/about/' | relative_url }}">About</a>
-    </nav>
+      <!-- Navigation links (desktop only) -->
+      <nav id="topbar-nav" class="d-none d-lg-flex align-items-center">
+        <a class="nav-link px-2" href="{{ '/' | relative_url }}">Home</a>
+        <a class="nav-link px-2" href="{{ '/posts/' | relative_url }}">Posts</a>
+        <!-- Commented out the categories page from the topbar -->
+        <!-- <a class="nav-link px-2" href="{{ '/categories/' | relative_url }}">Categories</a> -->
+        <a class="nav-link px-2" href="{{ '/tags/' | relative_url }}">Tags</a>
+        <a class="nav-link px-2" href="{{ '/archives/' | relative_url }}">Archives</a>
+        <a class="nav-link px-2" href="{{ '/about/' | relative_url }}">About</a>
+      </nav>
 
-
-    <!-- Search Trigger (small screens only) -->
-    <button type="button" id="search-trigger" class="btn btn-link">
-      <i class="fas fa-search fa-fw"></i>
-    </button>
-
-    <search id="search" class="align-items-center ms-3 ms-lg-0">
-      <i class="fas fa-search fa-fw"></i>
-      <input
-        class="form-control"
-        id="search-input"
-        type="search"
-        aria-label="search"
-        autocomplete="on"
-        placeholder="{{ site.data.locales[include.lang].search.hint | capitalize }}..."
-      >
-    </search>
-    <button type="button" class="btn btn-link text-decoration-none" id="search-cancel">
-      {{- site.data.locales[include.lang].search.cancel -}}
-    </button>
-
-    <!-- Dark/Light Mode Toggle -->
-    {% unless site.theme_mode %}
-      <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle-cls">
-        <i id="topbar-mode-icon" class="fas fa-moon"></i>
-      </button>
-    {% endunless %}
-</div>
+    </div>
+      <!-- Dark/Light Mode Toggle -->
+      {% unless site.theme_mode %}
+        <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle-cls">
+          <i id="topbar-mode-icon" class="fas fa-moon"></i>
+        </button>
+      {% endunless %}
   </div>
 </header>

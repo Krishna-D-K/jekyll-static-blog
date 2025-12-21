@@ -2,10 +2,10 @@
 @use '../abstracts/variables' as v;
 @use '../abstracts/placeholders';
 
-search {
+.search {
   display: flex;
   width: 100%;
-  border-radius: 1rem;
+  border-radius: 0.4rem;
   border: 1px solid var(--search-border-color);
   background: var(--main-bg);
   padding: 0 0.5rem;
@@ -21,7 +21,7 @@ search {
   }
 
   @include bp.lg {
-    max-width: v.$search-max-width;
+    max-width: v.$search-max-width * 2;
   }
 
   @include bp.xl {
@@ -34,6 +34,19 @@ search {
     );
   }
 }
+
+#search-results {
+  display: none;
+}
+
+.searching #post-list {
+  display: none !important;
+}
+
+.searching #search-results {
+  display: block;
+}
+
 
 #search-result-wrapper {
   display: none;
@@ -60,7 +73,6 @@ search {
 }
 
 #search-results {
-  padding-bottom: 3rem;
 
   @include bp.between(bp.get(lg), calc(#{bp.get(xl)} - 1px)) {
     > div {
@@ -69,27 +81,25 @@ search {
   }
 
   a {
-    font-size: 1.4rem;
-    line-height: 1.5rem;
+    color: var(--tag-color);
 
     &:hover {
       @extend %link-hover;
     }
 
-    @extend %link-color;
     @extend %no-bottom-border;
     @extend %heading;
   }
 
   > article {
     width: 100%;
+    margin: 0 !important;
 
     &:not(:last-child) {
       margin-bottom: 1rem;
     }
 
     @include bp.xl {
-      width: 45%;
 
       &:nth-child(odd) {
         margin-right: 1.5rem;
@@ -97,11 +107,6 @@ search {
 
       &:nth-child(even) {
         margin-left: 1.5rem;
-      }
-
-      &:last-child:nth-child(odd) {
-        position: relative;
-        right: 24.3%;
       }
     }
 

@@ -46,8 +46,6 @@ layout: compress
                     {% include_cached footer.html lang=lang %}
                 </div>
             </div>
-
-            {% include_cached search-results.html lang=lang %}
         </div>
 
         <aside aria-label="Scroll to Top">
@@ -70,7 +68,7 @@ layout: compress
     {% include {{ _include_path }} %}
     {% endfor %}
 
-    {% include_cached search-loader.html lang=lang %}
+    {% include_cached custom-search-loader.html lang=lang %}
 </body>
  <script src="{{ site.baseurl }}/assets/js/custom-script.js"></script>
  <script src="{{ site.baseurl }}/assets/js/typed-js.js"></script>

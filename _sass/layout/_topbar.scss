@@ -5,7 +5,12 @@
 
 #topbar-wrapper {
   height: v.$topbar-height;
+  padding: v.$topbar-padding;
   background-color: var(--topbar-bg);
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
 
   @include bp.lt(bp.get(lg)) {
     @include mx.slide(top 0.2s ease);
@@ -15,7 +20,27 @@
 }
 
 #topbar {
+  width: v.$topbar-width;
   @extend %btn-color;
+
+  #topbar-right {
+    display: flex;
+    align-items: center;
+    margin-left: auto; // floats everything inside to the right
+
+    @include bp.lt(bp.get(lg)) {
+      margin: 0 !important;
+      // display: none;
+
+      #mode-toggle-cls {
+        display: none;
+      }
+    }
+  }
+
+  #mode-toggle-cls {
+    margin: 0 0.4rem;
+  }
 
   #breadcrumb {
     font-size: 1rem;
@@ -49,10 +74,12 @@
   }
 
   @include bp.lte(bp.get(md)) {
+    width: v.$topbar-width*1.2;
     @include mx.max-w-100;
   }
 
   @include bp.lt(bp.get(lg)) {
+    width: v.$topbar-width*1.2;
     max-width: 100%;
   }
 }
@@ -82,5 +109,34 @@
 
   @include bp.lt(bp.get(lg)) {
     display: block;
+  }
+}
+
+#site-title {
+  // font-size: 1.2rem;
+  // font-weight: 600;
+  color: var(--topbar-text-color);
+  margin: auto 2rem;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      color: var(--link-hover-color);
+    }
+  }
+}
+
+#topbar-nav {
+  a {
+    font-size: 1rem;
+    margin-right: calc( v.$main-content-max-width/160 );
+    color: var(--topbar-text-color);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--link-hover-color);
+    }
   }
 }

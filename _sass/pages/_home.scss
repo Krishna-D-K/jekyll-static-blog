@@ -39,7 +39,7 @@
   100% { opacity: 1; }
 }
 
-#post-list {
+#post-list, #search-results {
   margin-top: 2rem;
 
   @include bp.lg {
@@ -185,7 +185,7 @@
     &:not(.active) {
       .page-link {
         &:hover {
-          box-shadow: inset var(--btn-border-color) 0 0 0 1px;
+          // box-shadow: inset var(--btn-border-color) 0 0 0 1px;
         }
       }
     }

@@ -9,45 +9,64 @@ pagination:
 {% include lang.html %}
 
 <h3 style="display: inline-block;">All Posts &nbsp;</h3>({{paginator.page}}/{{paginator.total_pages}})
+
+<div id="search" class="search d-flex align-items-center ms-lg-0">
+  <i class="fas fa-search fa-fw"></i>
+  <input
+    class="form-control"
+    id="search-input"
+    type="search"
+    aria-label="search"
+    autocomplete="on"
+    placeholder="{{ site.data.locales[site.lang].search.hint | capitalize }}..."
+  >
+</div>
+<button type="button" class="btn btn-link text-decoration-none" id="search-cancel">
+  {{- site.data.locales[include.lang].search.cancel -}}
+</button>
+
 <hr>
 
-<div id="post-list" class="flex-grow-1 px-xl-1">
+<div id="search-results">
+  <div class="search-result flex-grow-1 px-xl-1">
+  </div>
+</div>
+
+<div id="post-list" class="post-list flex-grow-1 px-xl-1">
+
   {% for post in paginator.posts %}
   <article class="card-wrapper card">
       <div class="card-body d-flex flex-column flex-md-row w-100 gap-3 gap-md-4">
-        <div class="col-12 col-md-3 d-flex flex-column align-items-top mb-3 mb-md-0 card-datetime">
-          <!-- posted date -->
+        <div class="col-12 col-md-3 d-flex flex-column align-items-top mb-md-0 card-datetime">
+
           {% include datetime.html date=post.date lang=lang %}
         </div>
+
         <div class="col-12 col-md-9 d-flex flex-column">
           <a href="{{ post.url | relative_url }}">
             <h1 class="card-title my-2 mt-md-0">{{ post.title }}</h1>
           </a>
 
-          <!-- tags -->
           {% if post.tags.size > 0 %}
             <div class="post-tags">
               {% for tag in post.tags %}
-                <a
-                  href="{{ site.baseurl }}/tags/{{ tag | slugify | url_encode }}/"
-                  class="post-tag no-text-decoration"
-                >
+                <a href="{{ site.baseurl }}/tags/{{ tag | slugify | url_encode }}/"
+                   class="post-tag no-text-decoration">
                   {{- tag -}}
                 </a>
               {% endfor %}
             </div>
           {% endif %}
+
           <div class="card-text content mt-0 mb-3">
             <p>{% include post-description.html %}</p>
           </div>
-
-          <!-- .post-meta -->
         </div>
-        <!-- .card-body -->
       </div>
   </article>
   {% endfor %}
+  {% include post-paginator.html %}
 </div>
 <!-- #post-list -->
 
-{% include post-paginator.html %}
+
