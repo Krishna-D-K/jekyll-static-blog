@@ -6,7 +6,7 @@ description: Not a big deal, but just something to write about.
 comments: true
 pin: true
 image: /assets/cover/star-wars.jpg
-tags: ['beginning', 'tech']     # TAG names should always be lowercase
+tags: ['jekyll', 'ruby']     # TAG names should always be lowercase
 ---
 
 Just when I was about to get started to write , I realized that most often I write in the same date pattern. Hmm...
