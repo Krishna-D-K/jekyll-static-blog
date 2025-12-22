@@ -12,10 +12,10 @@
     }
 
     @if $i < 5 {
-      $size-factor: 0.25rem;
+      $size-factor: 0.2rem;
 
       @if $i > 1 {
-        $size-factor: 0.18rem;
+        $size-factor: 0.1rem;
 
         main & {
           @if $i == 2 {

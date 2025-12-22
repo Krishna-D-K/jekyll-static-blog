@@ -14,10 +14,15 @@
     span {
       font-size: 100%;
     }
+    @include bp.lt(bp.get(lg)) {
+      font-size: 2rem;
+    }
   }
   span {
     font-size: 1.2rem;
-
+    @include bp.lt(bp.get(lg)) {
+      font-size: 1rem;
+    }
     a {
       color: black;
       text-decoration: none;
