@@ -3,22 +3,26 @@
 
 platforms:
   - type: Twitter
-    icon: "fa-brands fa-square-x-twitter"
+    icon: "fa-brands fa-twitter"
     link: "https://twitter.com/intent/tweet?text=TITLE&url=URL"
+    color: "#009ded"
 
   - type: Facebook
     icon: "fab fa-facebook-square"
     link: "https://www.facebook.com/sharer/sharer.php?title=TITLE&u=URL"
+    color: "#1877F2"
 
   - type: Telegram
     icon: "fab fa-telegram"
     link: "https://t.me/share/url?url=URL&text=TITLE"
+    color: "#1877F2"
 
   # Uncomment below if you need to.
   #
   - type: Linkedin
     icon: "fab fa-linkedin"
     link: "https://www.linkedin.com/sharing/share-offsite/?url=URL"
+    color: "#0A66C2"
 
   #
   # - type: Weibo
@@ -43,8 +47,9 @@ platforms:
   #   link: "https://bsky.app/intent/compose?text=TITLE%20URL"
   #
   - type: Reddit
-    icon: "fa-brands fa-square-reddit"
+    icon: "fa-brands fa-reddit"
     link: "https://www.reddit.com/submit?url=URL&title=TITLE"
+    color: "#FF4500"
   #
   # - type: Threads
   #   icon: "fa-brands fa-square-threads"

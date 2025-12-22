@@ -65,3 +65,41 @@ document.addEventListener('DOMContentLoaded', function () {
     cursorChar: '_'
   });
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+  const btn = document.getElementById('copy-link');
+  if (!btn) return;
+
+  const icon = btn.querySelector('i');
+
+  const originalTitle = btn.getAttribute('title');
+  const successTitle = btn.dataset.titleSucceed;
+
+  btn.addEventListener('click', async () => {
+    try {
+      await navigator.clipboard.writeText(window.location.href);
+
+      // Change icon to check
+      icon.classList.replace('fa-copy', 'fa-check');
+      icon.classList.replace('fa-regular', 'fa-solid');
+      icon.style.color = '#22c55e';
+
+      // Update tooltip
+      btn.setAttribute('data-bs-original-title', successTitle);
+      btn.setAttribute('title', successTitle);
+
+      // Reset after 2s
+      setTimeout(() => {
+        icon.classList.replace('fa-check', 'fa-copy');
+        icon.classList.replace('fa-solid', 'fa-regular');
+        icon.style.color = '#06b6d4';
+
+        btn.setAttribute('data-bs-original-title', originalTitle);
+      }, 2000);
+
+    } catch (err) {
+      console.error('Copy failed', err);
+    }
+  });
+});
+
