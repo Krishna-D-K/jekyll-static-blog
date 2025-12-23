@@ -1,6 +1,7 @@
 ---
 title: Kocher's Timing Attack
 author: Krishna
+math: true
 categories: [Tech]
 description: Performing a classic Kocher's Timing Attack on the famous RSA encryption algorithm
 comments: true
