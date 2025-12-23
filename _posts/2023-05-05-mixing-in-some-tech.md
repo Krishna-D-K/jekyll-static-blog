@@ -31,17 +31,17 @@ Ready-made, responsive themes are available as templates to use. Modify it a lit
 
 Assuming you have [Ruby](https://ruby-lang.org) and [Git](https://git-scm.org) installed in your system and a GitHub account, let's make a copy of [this](https://github.com/cotes2020/chirpy-starter) Chirpy theme template  from GitHub. Just visit this site and select **Use this template** option.
 
-<!-- ![GitHub Option](../assets/blogs/GitHub.png)
+<!-- ![GitHub Option](/assets/blogs/GitHub.png)
 _choose the option Use This template_ -->
-{% include image.html url="../assets/blogs/GitHub.png" caption="choose the option Use This template" %}
+{% include image.html url="/assets/blogs/GitHub.png" caption="choose the option Use This template" %}
 
 
 Create a new repository and the entire content will be copied to the repository for your use!
 
 
-<!-- ![New Repository](../assets/blogs/new-repo.png)
+<!-- ![New Repository](/assets/blogs/new-repo.png)
 _create a new repository_ -->
-{% include image.html url="../assets/blogs/new-repo.png" caption="create a new repository" %}
+{% include image.html url="/assets/blogs/new-repo.png" caption="create a new repository" %}
 
 ### Setting the local development server
 

@@ -23,7 +23,7 @@ He pioneered the field of side-channel attacks, including the development of tim
 
 We can broadly divide the encryption algorithms in two ways: symmetric and asymmetric algorithms. Symmetric algorithms use the same key for encryption as well as decryption. For example, the AES and DES encryption algorithms, which are widely popular are symmetric cryptography algorithms. On the other hand, asymmetric cryptography algorithms use different keys for encrypting and decrypting the data. The RSA algorithm, discussed below, is an asymmetric cryptography algorithm.
 
-{% include image.html url="../assets/blogs/symmetric-asymmetric.png" caption="Symmetric v/s Asymmetric Algorithm" %}
+{% include image.html url="/assets/blogs/symmetric-asymmetric.png" caption="Symmetric v/s Asymmetric Algorithm" %}
 
 ### RSA Algorithm
 
@@ -76,7 +76,7 @@ We used the binary exponentiation algorithm to compute m<sup>e</sup> (mod N). Fo
 
 On executing the code, we get the output as
 
-{% include image.html url="../assets/blogs/code-exec-terminal-1.png" caption="Ciphering and decyphering output" %}
+{% include image.html url="/assets/blogs/code-exec-terminal-1.png" caption="Ciphering and decyphering output" %}
 
 This verifies that the code works correctly!
 
@@ -179,13 +179,13 @@ print("One's Variance = ", np.var(oneList))
 
 On running the above code we get something like this:
 
-{% include image.html url="../assets/blogs/code-exec-terminal-2.png" caption="Variance computation output" %}
+{% include image.html url="/assets/blogs/code-exec-terminal-2.png" caption="Variance computation output" %}
 
 Remember our private key, 75871 (**0b10010100001011111**) with the 0<sup>th</sup> bit as 1. Hence we expect the variance of 1 to be less than 0, as seen in the results.
 
 To look further, assume that we want to know the 6th bit of the key, which is at index 5. Our two guessed keys will now be 0b011111 (31) and 0b111111 (63). Let us change the code `encrypted_text = RSA_Encryption_Algorithm(i, 63, 5)` for oneList and `encrypted_text = RSA_Encryption_Algorithm(i, 31, 5)` for zeroList. We get:
 
-{% include image.html url="../assets/blogs/code-exec-terminal-3.png" caption="Trying variance computation multiple times" %}
+{% include image.html url="/assets/blogs/code-exec-terminal-3.png" caption="Trying variance computation multiple times" %}
 
 In all these cases we get one's variance greater than zero's, which means zero is the correct bit at index 5. (As can be observed!)
 

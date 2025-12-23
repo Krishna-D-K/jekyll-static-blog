@@ -35,7 +35,7 @@ It is important to attack the system to find these weak points. Such attacks are
 
 Channels of information leakage could be many. For example, the power consumption of a device or chip running an algorithm may expose the underlying data. Or some frequency emissions that may expose the system. To exploit these leakages, one needs to understand the encryption algorithm, the device behaviour, the memory management etc.
 
-{% include image.html url="../assets/blogs/side-channel-leakage.png" caption="Side channel leakage" %}
+{% include image.html url="/assets/blogs/side-channel-leakage.png" caption="Side channel leakage" %}
 
 The above image shows the power consumption profile of a system that gives away the cache behaviour. If you are unfamiliar with cache, imagine a go-to storehouse where data is stored temporarily. Whenever the processor requests data, it is first checked in the cache and if data is not present, it proceeds into main memory. If the data is in the cache, it is called a cache hit, or else cache miss. Since a main memory lookup requires more time than a cache lookup, the power consumption of the main memory access is greater.
 

@@ -7,7 +7,7 @@ order: 4
 <!-- > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
 {: .prompt-tip } -->
 
-![good programmer.png](../assets/personal/about.png)
+![good programmer.png](/assets/personal/about.png)
 
 Currently pursuing B.Tech in Electrical Engineering, I am a software developer by passion, and compassionate soul by heart :)
 

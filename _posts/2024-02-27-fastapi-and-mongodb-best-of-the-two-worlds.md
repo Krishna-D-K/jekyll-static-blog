@@ -36,7 +36,7 @@ python3 -m venv .venv
 
 This creates a folder (a virtual environment) named .venv at the location. Let us look at the structure of the .vevn folder.
 
-{% include image.html url="../assets/blogs/folder-structure.png" caption="Virtual environment folder structure" %}
+{% include image.html url="/assets/blogs/folder-structure.png" caption="Virtual environment folder structure" %}
 
 The bin folder contains the essential scripts for the project, while the lib folder contains the packages that will be installed. To begin installing other packages we need to activate the virtual environment.
 
@@ -47,7 +47,7 @@ source activate
 
 Upon executing this command, you will see the activated environment at the beginning of your terminal newline. (In my case, it occurs as (.venv) in white)
 
-{% include image.html url="../assets/blogs/activating-venv.png" caption="Activating the virtual environment" %}
+{% include image.html url="/assets/blogs/activating-venv.png" caption="Activating the virtual environment" %}
 
 This means you have correctly activated the virtual environment.
 
@@ -96,7 +96,7 @@ uvicorn server:app --reload --port 8000
 
 To terminate the server just press `Ctrl + C`. You must be able to see the following in your terminal.
 
-{% include image.html url="../assets/blogs/terminate-server.png" caption="Terminating the server process" %}
+{% include image.html url="/assets/blogs/terminate-server.png" caption="Terminating the server process" %}
 
 So far so good. Now let us understand the code. Firstly, we import FastAPI from the package fastapi (which was installed earlier). We run an instance of this FastAPI called as `app`. Then we import `asynccontextmanager` from `contextlib`. These are used to define async contexts in fastapi. To know what async is, you may refer to [this](https://fastapi.tiangolo.com/async/) wonderful explanation.
 
@@ -150,7 +150,7 @@ async def connectToDatabase():
 
 If everything goes correctly, you can see a MongoClient connection string printed in the terminal.
 
-{% include image.html url="../assets/blogs/db-connection.png" caption="Verifying the connection string" %}
+{% include image.html url="/assets/blogs/db-connection.png" caption="Verifying the connection string" %}
 
 ### Creating an API endpoint
 
@@ -197,7 +197,7 @@ app.include_router(router)
 
 Now run the command `uvicorn server:app --reload` and check the URL `localhost:8000/docs` to view the latest endpoint we made. On clicking the execute button, if you see something like this, Kudos!! Your server is up and ready.
 
-{% include image.html url="../assets/blogs/swagger-endpoints.png" caption="Swagger documentation" %}
+{% include image.html url="/assets/blogs/swagger-endpoints.png" caption="Swagger documentation" %}
 
 Things to note:
 
