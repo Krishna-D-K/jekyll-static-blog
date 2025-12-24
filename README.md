@@ -1,4 +1,20 @@
-# Chirpy Starter
+# Jekyll Static Blog
+
+![GitHub language count](https://img.shields.io/github/languages/count/Krishna-D-K/Personal-Website-2.0?color=gre&style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/Krishna-D-K/jekyll-static-blog?color=mint&style=plastic)
+
+
+![Ruby](https://img.shields.io/badge/Ruby-%23CC342D.svg?style=plastic&logo=ruby&logoColor=white) &nbsp;
+![Jekyll](https://img.shields.io/badge/Jekyll-%23CC0000.svg?style=plastic&logo=jekyll&logoColor=white) &nbsp;
+![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=plastic&logo=javascript&logoColor=black) &nbsp;
+![SCSS](https://img.shields.io/badge/SCSS-%23CC6699.svg?style=plastic&logo=sass&logoColor=white) &nbsp;
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=plastic&logo=markdown&logoColor=white)
+
+
+My personal blog where I write technical, non-technical blogs. Made using Jekyll for static-site generation. Earlier tried using CMS and CDN but felt a bit overkill.
+Besides modified this chirpy theme with scss and js customizations to suit me.
+
+## Chirpy Starter
 
 [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
 [![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
@@ -7,9 +23,6 @@ When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jeky
 `_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
 from the theme's gem. If you have ever installed this theme gem, you can use the command
 `bundle info --path jekyll-theme-chirpy` to locate these files.
-
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
-able to enjoy the out-of-the-box experience when using feature-rich themes.
 
 To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
 Jekyll site. The following is a list of targets:
@@ -25,29 +38,30 @@ Jekyll site. The following is a list of targets:
 To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
 latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
 
-## Prerequisites
+### Prerequisites
 
 Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of
 the basic environment. [Git](https://git-scm.com/) also needs to be installed.
 
-## Installation
+### Installation
 
 Sign in to GitHub and [**use this template**][use-template] to generate a brand new repository and name it
-`USERNAME.github.io`, where `USERNAME` represents your GitHub username.
+`USERNAME.github.io`, where `USERNAME` represents your GitHub username, or use this repository to start!
 
 Then clone it to your local machine and run:
 
 ```console
-$ bundle
+$ bundle exec jekyll serve
 ```
 
-## Usage
+### Usage
 
 Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
 
-## Contributing
+## External libraries used
 
-This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
+- [Rough Notation](https://github.com/rough-stuff/rough-notation)
+- [Typed.js](https://github.com/mattboldt/typed.js)
 
 ## License
 
