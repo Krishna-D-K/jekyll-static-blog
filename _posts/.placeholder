@@ -1,17 +1,3 @@
-# Add this metadata before each new post
-
----
-title:
-author: Krishna
-categories: [Tech]
-description:
-comments: true
-pin: true/false
-image: /assets/cover/star-wars.jpg
-tags: ['beginning', 'tech']     # TAG names should always be lowercase
----
-
-
 # Markdown Syntax Guide by Krishna
 
 <!-- This file contains basic Markdown syntax for reference. -->
@@ -27,8 +13,8 @@ tags: ['beginning', 'tech']     # TAG names should always be lowercase
 ## 2. Emphasis
 <!-- Use `**` for bold and `*` or `_` for italics. -->
 
-**This text is bold**
-*This text is italic*
+**This text is bold**  
+*This text is italic*  
 _This text is also italic_
 
 ## 3. Lists
@@ -101,7 +87,7 @@ Here is a footnote reference[^1].
 ## 12. Newlines
 <!-- To create a newline, end a line with two spaces or insert a `<br>` tag. -->
 
-This is the first line.
+This is the first line.  
 This is the second line.
 
 <!-- Alternatively: -->
@@ -111,7 +97,7 @@ This is the first line.<br>This is the second line.
 ## 13. Special Characters
 <!-- Escape special characters by preceding them with a backslash `\`. -->
 
-\*This text is not italicized*
-\# This text is not a header
-\> This is not a blockquote
+\*This text is not italicized*  
+\# This text is not a header  
+\> This is not a blockquote  
 \[Link Text](#) is displayed as plain text
